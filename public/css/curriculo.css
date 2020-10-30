@@ -1,43 +1,96 @@
 #page-curriculo {
-    width: 100%;
-    height: 100%;
 
-    display: flex;
+    height: 100%;
+  
 }
 
 .left-informations {
-    background: #3b62ef;
-    display: flex;
-    justify-content: center;
-    width: clamp(24rem, 25vw, 25rem);
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  width: clamp(20rem, 20vw, 20rem);
+  min-height: 100vh;
+  position: relative;
+  border-right: 1px solid #363b4b;
+  color: black;
+  align-items: center;
 }
 
-.aside-itens, .personal-information {
-    flex-direction: column;
-}
-
-.social-networks div {
-    margin-bottom: 2rem;
-}
-
-.personal-information p {
-    margin-bottom: 1.2rem;
+.aside-itens {
+  max-width: 70%;
+  
 }
 
 header {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
+  margin-top: 3rem;
+  border-radius: 50%;
+  border: 1.2px solid #707070;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  flex-direction: none;
 }
 
 header img {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-networks div,
+.personal-information p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.facebook-networks {
+  word-wrap: break-word;
+}
+
+.social-networks p,
+.social-networks a {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: black;
+  padding-left: 0.5rem;
+}
+
+.social-networks a:hover {
+  color: #707070;
+}
+
+.social-networks img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.personal-information h3,
+h2 {
+  margin-bottom: 0.8rem;
+}
+
+.personal-information,
+.social-networks,
+header {
+  margin-bottom: 2.5rem;
+}
+
+.social-networks h2 {
+  display: flex;
+  align-items: center;
+}
+
+.social-networks hr {
+  border: 1.5px solid black;
+  border-radius: 1.5px;
+  background: black;
+  width: 100%;
+  height: 1.5px;
+}
+
+.personal-information p {
+  line-height: 1.9rem;
 }

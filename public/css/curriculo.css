@@ -1,18 +1,26 @@
 #page-curriculo {
-
+    
     height: 100%;
+    display: flex;
   
+    
 }
 
-.left-informations {
+
+ .left-informations {
   display: flex;
-  justify-content: center;
-  width: clamp(20rem, 20vw, 20rem);
+  width: 15vw;
   min-height: 100vh;
-  position: relative;
-  border-right: 1px solid #363b4b;
+  position: fixed;
+  left: 0;
+  border-right: 1px solid #7194a8;
   color: black;
   align-items: center;
+  background: #7d929e;
+
+  flex-direction: column;
+    
+
 }
 
 .aside-itens {
@@ -58,11 +66,11 @@ header img {
   padding-left: 0.5rem;
 }
 
-.social-networks a:hover {
+.social-networks a:hover, .all-formations a:hover {
   color: #707070;
 }
 
-.social-networks img {
+.social-networks img  {
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -78,12 +86,12 @@ header {
   margin-bottom: 2.5rem;
 }
 
-.social-networks h2 {
+h2 {
   display: flex;
   align-items: center;
 }
 
-.social-networks hr {
+hr {
   border: 1.5px solid black;
   border-radius: 1.5px;
   background: black;
@@ -93,4 +101,43 @@ header {
 
 .personal-information p {
   line-height: 1.9rem;
+}
+
+.description-container { 
+  padding: 5rem;
+  max-width:70%;
+  line-height: 1.9rem;
+  margin: auto;
+}
+
+.description-container div{
+  background: #7d929e;
+  padding: 1.5rem 4rem;
+  margin-bottom:1.5rem;
+  
+}
+
+.formations .all-formations, .professional .all-professional{
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  
+}
+
+.all-formations div, .all-professional div{
+  background:white;
+  padding: 0;
+  width: 45%;
+  
+}
+
+.all-formations img, .all-professional img{
+  margin-right: .5rem;
+  width: 1.5rem;
+  height: 1.5rem
+}
+
+.all-formations a, .all-professional a {
+  text-decoration: none;
+  color: black;
 }

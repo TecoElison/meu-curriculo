@@ -13,10 +13,11 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: clamp(1.3rem, 5vw, .8rem);
-    background:#bfcbdb;
+    
 }
 
 #page-lading {
+    background:#bfcbdb;
     display: flex;
     min-height: 100vh;
     

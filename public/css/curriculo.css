@@ -2,8 +2,8 @@
     
     height: 100%;
     display: flex;
-  
-    
+    color:  #5a5a5a;
+    background:#d4dfff;
 }
 
 
@@ -13,10 +13,10 @@
   min-height: 100vh;
   position: fixed;
   left: 0;
-  border-right: 1px solid #7194a8;
-  color: black;
+  border-right: 1px solid #bdcada;
+  
   align-items: center;
-  background: #7d929e;
+  background:#bfcbdb;
 
   flex-direction: column;
     
@@ -62,12 +62,12 @@ header img {
   text-decoration: none;
   align-items: center;
   display: flex;
-  color: black;
+  color:  #5a5a5a;
   padding-left: 0.5rem;
 }
 
-.social-networks a:hover, .all-formations a:hover {
-  color: #707070;
+.social-networks a:hover, .all-formations a:hover, .all-professional a:hover, .all-courses a:hover{
+  color: #3b62ef;
 }
 
 .social-networks img  {
@@ -76,7 +76,7 @@ header img {
 }
 
 .personal-information h3,
-h2 {
+.social-networks h2 {
   margin-bottom: 0.8rem;
 }
 
@@ -87,14 +87,17 @@ header {
 }
 
 h2 {
+  color:#3b62ef;
+  margin-bottom: 1.3rem;
   display: flex;
   align-items: center;
 }
 
 hr {
-  border: 1.5px solid black;
+  
+  border: 1.5px solid #3b62ef;;
   border-radius: 1.5px;
-  background: black;
+  background: #3b62ef;
   width: 100%;
   height: 1.5px;
 }
@@ -111,33 +114,36 @@ hr {
 }
 
 .description-container div{
-  background: #7d929e;
+  background: #bfcbdb;
   padding: 1.5rem 4rem;
   margin-bottom:1.5rem;
+  border-radius: 2rem;
   
 }
 
-.formations .all-formations, .professional .all-professional{
+.formations .all-formations, .professional .all-professional, .courses .all-courses{
   display: flex;
   padding: 0;
   justify-content: space-between;
   
 }
 
-.all-formations div, .all-professional div{
-  background:white;
+.all-formations div, .all-professional div, .all-courses div{
+  
   padding: 0;
   width: 45%;
   
+  
 }
 
-.all-formations img, .all-professional img{
+.all-formations img, .all-professional img, .all-courses img{
   margin-right: .5rem;
   width: 1.5rem;
   height: 1.5rem
 }
 
-.all-formations a, .all-professional a {
+.all-formations a, .all-professional a, .all-courses a{
   text-decoration: none;
-  color: black;
+  color: #5a5a5a;
 }
+
